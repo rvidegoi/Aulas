@@ -12,14 +12,14 @@ User function ex5()
  
 	For ni:=1 to 2
  
-		WHILE !MSGGET2("Calculo de Triângulo", "Insira o "+aDesc[ni] ,@aVar[ni],nil,)
+		WHILE !MSGGET2("Calculo de Triângulo", "Insira o " + aDesc[ni] ,@aVar[ni],nil,)
 			ALert("Informação Obrigatória!")
         
 		ENDDO
 	Next
 
 	For n2 :=1 to 2
-        
+       
 		Cmostra  := aVar[1]* aVar[2]
 					
 	Next
