@@ -12,7 +12,7 @@ User function ex5()
  
 	For ni:=1 to 2
  
-		WHILE !MSGGET2("Calculo de Triângulo", "Insira o " + aDesc[ni] ,@aVar[ni],nil,)
+		WHILE !MSGGET2("Calculo de Retângulo", "Insira o " + aDesc[ni] ,@aVar[ni],nil,nil,"@E 99,999.99")
 			ALert("Informação Obrigatória!")
         
 		ENDDO
@@ -27,3 +27,4 @@ User function ex5()
 	MsgInfo (cMostra)
 
 return
+
